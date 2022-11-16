@@ -1,16 +1,6 @@
-console.log("hi");
-
-/*
-
 import fs from "fs";
 
-const N = fs.readFileSync(proce)
+const input = fs.readFileSync(process.stdin.fd, { encoding: "utf-8" });
 
-/*
-int main() {
-	int N;
-	cin >> N; // 入力
-	cout << N * N << endl; // 出力
-	return 0;
-}
-*/
+const N = Number(input);
+console.log(N * N);
